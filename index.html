@@ -4,30 +4,29 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<title>Samuel Hagenimana, Software Engineer</title>
-<meta name="description" content="Software engineer based in Rulindo, Rwanda. Founder and CTO of Oliviuus Ltd, builder of iSanzure, co-founder of Linkfy Connect. Works mainly in JavaScript, Python, React and Node." />
+<title>Samuel Hagenimana</title>
+<meta name="description" content="Samuel Hagenimana, founder of Oliviuus Ltd, builder of iSanzure, co-founder of Linkfy Connect. Based in Rulindo, Rwanda." />
 <meta name="author" content="Samuel Hagenimana" />
 <meta name="robots" content="index, follow" />
 <meta name="color-scheme" content="light dark" />
-<meta name="theme-color" content="#ffffff" />
+<meta name="theme-color" content="#EAE6DB" />
 
-<!-- Open Graph / Twitter tags. Replace the two image/URL placeholders once the site has a real domain. -->
 <meta property="og:type" content="profile" />
 <meta property="og:site_name" content="Samuel Hagenimana" />
-<meta property="og:title" content="Samuel Hagenimana, Software Engineer" />
-<meta property="og:description" content="Founder and CTO of Oliviuus Ltd, builder of iSanzure, co-founder of Linkfy Connect. Works mainly in JavaScript, Python, React and Node." />
-<meta property="og:image" content="assets/img/samImg/samuel.png" />
+<meta property="og:title" content="Samuel Hagenimana" />
+<meta property="og:description" content="Founder of Oliviuus Ltd, builder of iSanzure, co-founder of Linkfy Connect." />
+<meta property="og:image" content="https://res.cloudinary.com/dgfrzygpo/image/upload/f_auto,q_auto,c_fill,g_face,ar_1:1,w_800/v1788352174/samuel_2_sntjqp.png" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Samuel Hagenimana, Software Engineer" />
-<meta name="twitter:description" content="Founder and CTO of Oliviuus Ltd, builder of iSanzure, co-founder of Linkfy Connect." />
-<meta name="twitter:image" content="assets/img/samImg/samuel.png" />
+<meta name="twitter:title" content="Samuel Hagenimana" />
+<meta name="twitter:description" content="Founder of Oliviuus Ltd, builder of iSanzure, co-founder of Linkfy Connect." />
+<meta name="twitter:image" content="https://res.cloudinary.com/dgfrzygpo/image/upload/f_auto,q_auto,c_fill,g_face,ar_1:1,w_800/v1788352174/samuel_2_sntjqp.png" />
 
 <link rel="icon" href="assets/img/logo/logo.png" type="image/png" />
 
-<!-- Two type roles from one family, loaded once: Plex Sans for reading, Plex Mono for structure/labels -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="preconnect" href="https://res.cloudinary.com" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
 <script type="application/ld+json">
 {
@@ -47,428 +46,267 @@
 </script>
 
 <style>
-  /* ===================== Tokens ===================== */
   :root{
-    --ink:#15181d;
-    --ink-soft:#3a3f47;
-    --muted:#6b7078;
-    --paper:#ffffff;
-    --paper-soft:#f5f5f3;
-    --line:#e4e4e0;
-    --accent:#2454e6;
-    --accent-soft:#eef1fd;
-    --focus:#2454e6;
+    --ink:#1B1F1B;
+    --ink-soft:#484F48;
+    --muted:#787E76;
+    --paper:#EAE6DB;
+    --paper-soft:#E1DCCD;
+    --line:#D2CBB8;
+    --accent:#B07A2C;
+    --accent-2:#3D5C46;
+    --focus:#B07A2C;
 
-    --font-sans:'IBM Plex Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
-    --font-mono:'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+    --font-display:'Fraunces', ui-serif, Georgia, serif;
+    --font-body:'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
 
-    --content: 42rem;
-    --wide: 54rem;
-    --nav-h: 3.75rem;
+    --content: 40rem;
+    --wide: 50rem;
+    --nav-h: 3.4rem;
   }
 
   html.dark{
-    --ink:#eef0f3;
-    --ink-soft:#c7cbd1;
-    --muted:#8b9098;
-    --paper:#101317;
-    --paper-soft:#171b20;
-    --line:#262b31;
-    --accent:#6f95ff;
-    --accent-soft:rgba(111,149,255,0.12);
+    --ink:#ECE7D8;
+    --ink-soft:#C4BEAB;
+    --muted:#8B8776;
+    --paper:#141914;
+    --paper-soft:#1B221B;
+    --line:#2A312A;
+    --accent:#D9A24E;
+    --accent-2:#6FA483;
   }
 
   *,*::before,*::after{ box-sizing:border-box; }
   html{ scroll-behavior:smooth; }
   @media (prefers-reduced-motion: reduce){
     html{ scroll-behavior:auto; }
-    *,*::before,*::after{ animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important; }
+    *,*::before,*::after{ animation:none !important; transition-duration:0.001ms !important; }
   }
 
   body{
     margin:0;
-    font-family:var(--font-sans);
+    font-family:var(--font-body);
     background:var(--paper);
     color:var(--ink);
-    line-height:1.6;
+    line-height:1.55;
     -webkit-font-smoothing:antialiased;
     transition:background .2s ease, color .2s ease;
   }
 
   img{ max-width:100%; display:block; }
-  a{ color:inherit; }
-  h1,h2,h3{ font-weight:700; letter-spacing:-0.01em; margin:0; }
+  a{ color:inherit; text-decoration:none; }
+  h1,h2{ font-family:var(--font-display); font-weight:500; letter-spacing:-0.01em; margin:0; }
   p{ margin:0; }
-  ul{ list-style:none; margin:0; padding:0; }
+  button{ font:inherit; color:inherit; background:none; border:none; cursor:pointer; padding:0; }
+  :focus-visible{ outline:2px solid var(--focus); outline-offset:3px; border-radius:2px; }
 
-  :focus-visible{ outline:2px solid var(--focus); outline-offset:2px; border-radius:2px; }
-
-  .mono{ font-family:var(--font-mono); }
-  .eyebrow{
-    font-family:var(--font-mono);
-    font-size:0.78rem;
-    color:var(--muted);
-    letter-spacing:0.02em;
-    display:block;
-    margin-bottom:0.75rem;
+  .sr-only{
+    position:absolute; width:1px; height:1px; padding:0; margin:-1px;
+    overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;
   }
 
   .wrap{ max-width:var(--content); margin-inline:auto; padding-inline:1.5rem; }
   .wrap--wide{ max-width:var(--wide); }
 
-  section{ padding:4.5rem 0; border-bottom:1px solid var(--line); }
-  section:last-of-type{ border-bottom:none; }
-
-  h2{ font-size:1.5rem; margin-bottom:1.75rem; }
-
   /* ===================== Header ===================== */
   header{
-    position:sticky; top:0; z-index:50;
-    height:var(--nav-h);
-    display:flex; align-items:center;
-    background:color-mix(in srgb, var(--paper) 88%, transparent);
+    position:sticky; top:0; z-index:50; height:var(--nav-h); display:flex; align-items:center;
+    background:color-mix(in srgb, var(--paper) 85%, transparent);
     backdrop-filter:saturate(140%) blur(8px);
     -webkit-backdrop-filter:saturate(140%) blur(8px);
-    border-bottom:1px solid transparent;
-    transition:border-color .2s ease;
+    border-bottom:1px solid transparent; transition:border-color .2s ease;
   }
   header.scrolled{ border-bottom-color:var(--line); }
 
   .nav{
-    width:100%;
-    max-width:var(--wide);
-    margin-inline:auto;
-    padding-inline:1.5rem;
+    width:100%; max-width:var(--wide); margin-inline:auto; padding-inline:1.5rem;
     display:flex; align-items:center; justify-content:space-between; gap:1rem;
   }
+  .wordmark{ font-family:var(--font-display); font-weight:500; font-size:1rem; }
 
-  .wordmark{ font-weight:700; font-size:1rem; }
-  .wordmark span{ color:var(--muted); font-family:var(--font-mono); font-weight:400; font-size:0.85rem; }
-
-  .nav__links{ display:flex; align-items:center; gap:1.75rem; }
-  .nav__links a{
-    font-size:0.9rem; color:var(--ink-soft); font-weight:500;
-    position:relative; padding-block:0.25rem;
+  .nav__links{ display:flex; align-items:center; gap:1.5rem; }
+  .nav__links a{ font-size:0.88rem; color:var(--ink-soft); font-weight:500; position:relative; padding-block:0.3rem; }
+  .nav__links a::after{
+    content:''; position:absolute; left:0; right:0; bottom:0; height:1px;
+    background:var(--accent); transform:scaleX(0); transform-origin:right; transition:transform .25s ease;
   }
-  .nav__links a:hover{ color:var(--accent); }
+  .nav__links a:hover::after{ transform:scaleX(1); transform-origin:left; }
+  .nav__links a:hover{ color:var(--ink); }
 
   .nav__right{ display:flex; align-items:center; gap:0.75rem; }
-
   .theme-toggle{
-    width:2.1rem; height:2.1rem;
-    display:flex; align-items:center; justify-content:center;
-    border:1px solid var(--line); border-radius:6px;
-    background:transparent; color:var(--ink); cursor:pointer;
-    transition:border-color .2s ease, background .2s ease;
+    width:2rem; height:2rem; display:flex; align-items:center; justify-content:center;
+    border:1px solid var(--line); border-radius:50%; color:var(--ink); cursor:pointer;
+    transition:border-color .18s ease, transform .18s ease;
   }
-  .theme-toggle:hover{ border-color:var(--accent); }
-  .theme-toggle svg{ width:16px; height:16px; }
+  .theme-toggle:hover{ border-color:var(--accent); transform:rotate(12deg); }
+  .theme-toggle svg{ width:15px; height:15px; }
   .theme-toggle .sun{ display:none; }
   html.dark .theme-toggle .moon{ display:none; }
   html.dark .theme-toggle .sun{ display:block; }
 
-  /* mobile nav uses native details, no JS required */
-  .nav-mobile{ display:none; }
-  .nav-mobile summary{
-    list-style:none; cursor:pointer;
-    width:2.1rem; height:2.1rem; border:1px solid var(--line); border-radius:6px;
-    display:flex; align-items:center; justify-content:center;
-  }
-  .nav-mobile summary::-webkit-details-marker{ display:none; }
-  .nav-mobile[open] .menu-icon{ display:none; }
-  .nav-mobile .close-icon{ display:none; }
-  .nav-mobile[open] .close-icon{ display:block; }
-  .nav-mobile summary svg{ width:16px; height:16px; }
-  .nav-mobile__panel{
-    position:absolute; left:0; right:0; top:var(--nav-h);
-    background:var(--paper); border-bottom:1px solid var(--line);
-    padding:1rem 1.5rem 1.5rem;
-  }
-  .nav-mobile__panel a{
-    display:block; padding:0.6rem 0; font-size:0.98rem; color:var(--ink);
-    border-bottom:1px solid var(--line);
-  }
-  .nav-mobile__panel a:last-child{ border-bottom:none; }
-
   /* ===================== Hero ===================== */
-  #home{ padding-top:4.5rem; padding-bottom:3.5rem; border-bottom:1px solid var(--line); }
-  #home .wrap{ max-width:var(--wide); }
+  #home{ position:relative; overflow:hidden; padding-top:3rem; padding-bottom:2.5rem; }
+  #home .wrap{ max-width:var(--wide); position:relative; z-index:1; }
+
+  .hills{ position:absolute; inset:auto 0 0 0; width:100%; height:40%; z-index:0; pointer-events:none; opacity:0.45; }
+  html.dark .hills{ opacity:0.3; }
+
+  .hero__row{ display:grid; grid-template-columns: 1fr 9.5rem; gap:2rem; align-items:center; }
 
   .hero__lead{
-    font-size:clamp(1.7rem, 3.4vw, 2.5rem);
-    line-height:1.28;
-    max-width:34ch;
-    animation:riseIn .5s ease both;
+    font-size:clamp(1.6rem, 3.2vw, 2.2rem); font-weight:500; line-height:1.3; max-width:26ch;
+    opacity:0; animation:riseIn .6s ease .1s forwards;
   }
-  .hero__lead strong{ font-weight:700; }
-  .hero__lead .accent{ color:var(--accent); }
-
   .hero__sub{
-    margin-top:1.25rem;
-    max-width:52ch;
-    color:var(--ink-soft);
-    font-size:1.02rem;
-    animation:riseIn .5s ease .05s both;
+    margin-top:0.9rem; color:var(--ink-soft); font-size:0.95rem;
+    opacity:0; animation:riseIn .6s ease .22s forwards;
   }
-
-  .status-line{
-    margin-top:2rem;
-    padding:0.9rem 1rem;
-    border:1px solid var(--line);
-    border-radius:6px;
-    background:var(--paper-soft);
-    font-family:var(--font-mono);
-    font-size:0.82rem;
-    color:var(--ink-soft);
-    display:flex; flex-wrap:wrap; gap:0.4rem 1.5rem;
-    animation:riseIn .5s ease .1s both;
-  }
-  .status-line b{ color:var(--ink); font-weight:600; }
-
   .hero__actions{
-    margin-top:1.75rem;
-    display:flex; gap:0.75rem; flex-wrap:wrap;
-    animation:riseIn .5s ease .15s both;
+    margin-top:1.5rem; display:flex; gap:0.65rem; flex-wrap:wrap;
+    opacity:0; animation:riseIn .6s ease .34s forwards;
   }
 
-  @keyframes riseIn{
-    from{ opacity:0; transform:translateY(8px); }
-    to{ opacity:1; transform:translateY(0); }
-  }
+  @keyframes riseIn{ from{ opacity:0; transform:translateY(10px); } to{ opacity:1; transform:translateY(0); } }
   @media (prefers-reduced-motion: reduce){
-    .hero__lead,.hero__sub,.status-line,.hero__actions{ animation:none; }
+    .hero__lead,.hero__sub,.hero__actions,.portrait{ opacity:1 !important; animation:none !important; }
   }
 
-  .btn{
-    display:inline-flex; align-items:center; gap:0.4rem;
-    font-family:var(--font-sans); font-weight:600; font-size:0.9rem;
-    padding:0.65rem 1.15rem; border-radius:6px;
-    border:1px solid transparent; transition:all .18s ease;
+  /* GitHub badge: same blob language as the timeline avatars, morphs into the joke on hover */
+  .gh-badge{
+    position:relative; display:inline-flex; align-items:center; height:2.4rem; padding:0 1rem;
+    border-radius:60% 40% 55% 45% / 45% 55% 40% 60%;
+    background:linear-gradient(155deg, var(--accent-2), var(--accent));
+    color:#fff; overflow:hidden; cursor:pointer;
+    transition:border-radius .4s ease, transform .15s ease;
   }
-  .btn--solid{ background:var(--ink); color:var(--paper); }
-  .btn--solid:hover{ background:var(--accent); }
-  html.dark .btn--solid{ background:var(--accent); color:#0b0d10; }
-  html.dark .btn--solid:hover{ opacity:0.88; }
-  .btn--ghost{ border-color:var(--line); color:var(--ink); }
-  .btn--ghost:hover{ border-color:var(--accent); color:var(--accent); }
-
-  /* ===================== About ===================== */
-  #about .about__grid{
-    display:grid;
-    grid-template-columns: 1fr 15rem;
-    gap:3rem;
-    align-items:start;
+  .gh-badge:hover{ border-radius:100px; }
+  .gh-badge:active{ transform:scale(0.96); }
+  .gh-badge__default{
+    font-weight:700; font-size:0.8rem; letter-spacing:0.02em; white-space:nowrap;
+    max-width:2rem; opacity:1; overflow:hidden;
+    transition:opacity .2s ease, max-width .35s ease;
   }
-  #about p + p{ margin-top:1.05rem; }
-  #about p{ color:var(--ink-soft); font-size:0.98rem; }
+  .gh-badge__joke{
+    font-weight:600; font-size:0.78rem; white-space:nowrap;
+    max-width:0; opacity:0; overflow:hidden;
+    transition:opacity .25s ease .05s, max-width .35s ease;
+  }
+  .gh-badge:hover .gh-badge__default{ opacity:0; max-width:0; }
+  .gh-badge:hover .gh-badge__joke{ opacity:1; max-width:12rem; }
 
-  .about__photo{
-    width:100%;
-    aspect-ratio: 4 / 5;
-    object-fit:cover;
-    border-radius:8px;
+  .portrait{ position:relative; width:9.5rem; aspect-ratio:3/4; justify-self:end; opacity:0; animation:riseIn .7s ease 0s forwards; }
+  .portrait__shape{
+    position:absolute; inset:0; overflow:hidden;
+    border-radius:58% 42% 52% 48% / 40% 46% 54% 60%;
     border:1px solid var(--line);
-    background:var(--paper-soft);
+    background:linear-gradient(155deg, var(--accent-2), var(--accent));
+    transition:border-radius .5s ease;
   }
-  .about__caption{
-    margin-top:0.6rem;
-    font-family:var(--font-mono);
-    font-size:0.74rem;
-    color:var(--muted);
-  }
-
-  /* ===================== Work ===================== */
-  #work .wrap{ max-width:var(--wide); }
-  .project{
-    padding:2rem 0;
-    border-top:1px solid var(--line);
-    display:grid;
-    grid-template-columns: 12rem 1fr;
-    gap:1.5rem 2rem;
-  }
-  .project:first-of-type{ border-top:none; }
-
-  .project__meta{ font-family:var(--font-mono); font-size:0.78rem; color:var(--muted); }
-  .project__meta .role{ display:block; margin-bottom:0.3rem; color:var(--ink-soft); }
-
-  .project__name{
-    display:inline-flex; align-items:center; gap:0.4rem;
-    font-size:1.25rem; font-weight:700; margin-bottom:0.55rem;
-  }
-  .project--primary .project__name{ font-size:1.55rem; }
-  .project__name svg{ width:14px; height:14px; color:var(--muted); flex-shrink:0; }
-  .project__name:hover{ color:var(--accent); }
-  .project__name:hover svg{ color:var(--accent); }
-
-  .project__desc{ color:var(--ink-soft); font-size:0.96rem; max-width:56ch; }
-
-  .tags{ margin-top:0.85rem; display:flex; flex-wrap:wrap; gap:0.4rem; }
-  .tag{
-    font-family:var(--font-mono); font-size:0.72rem;
-    padding:0.2rem 0.5rem; border:1px solid var(--line); border-radius:4px;
-    color:var(--muted);
+  .portrait:hover .portrait__shape{ border-radius:44% 56% 40% 60% / 55% 42% 58% 45%; }
+  .portrait img{ width:100%; height:100%; object-fit:cover; object-position:center 14%; }
+  .portrait__fallback{
+    display:none; width:100%; height:100%; align-items:center; justify-content:center;
+    font-family:var(--font-display); font-size:2.2rem; color:#fff;
   }
 
-  /* ===================== Stack ===================== */
-  .stack__grid{
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap:2rem 2.5rem;
-  }
-  .stack__group h3{
-    font-family:var(--font-mono);
-    font-size:0.78rem;
-    text-transform:uppercase;
-    letter-spacing:0.05em;
-    color:var(--muted);
-    font-weight:600;
-    margin-bottom:0.65rem;
-  }
-  .stack__group p{ font-size:0.95rem; color:var(--ink-soft); line-height:1.7; }
+  /* ===================== Body grid ===================== */
+  #body-grid{ padding:0.5rem 0 2.5rem; border-top:1px solid var(--line); }
+  #body-grid .wrap{ max-width:var(--wide); }
+  .grid2{ display:grid; grid-template-columns: 1.1fr 1fr; gap:0.85rem; align-items:start; }
+  .tile{ background:var(--paper-soft); border:1px solid var(--line); border-radius:16px; padding:1.2rem 1.35rem; }
 
-  /* ===================== Timeline ===================== */
-  .timeline{ border-top:1px solid var(--line); }
-  .timeline__row{
-    display:grid;
-    grid-template-columns: 7.5rem 6rem 1fr;
-    gap:1rem;
-    padding:0.95rem 0;
-    border-bottom:1px solid var(--line);
-    align-items:baseline;
+  /* ---- Timeline accordion: collapsed by default, opens on demand, one entry at a time ---- */
+  #timeline-tile{ padding:0; overflow:hidden; }
+  .tl-toggle{
+    width:100%; display:flex; align-items:center; gap:0.75rem; padding:1.1rem 1.35rem;
+    text-align:left;
   }
-  .timeline__row time{ font-family:var(--font-mono); font-size:0.8rem; color:var(--muted); }
-  .timeline__row .kind{
-    font-family:var(--font-mono); font-size:0.68rem; text-transform:uppercase; letter-spacing:0.04em;
-    color:var(--accent); align-self:start;
-  }
-  .timeline__row .what b{ font-weight:600; }
-  .timeline__row .what span{ display:block; color:var(--muted); font-size:0.88rem; margin-top:0.1rem; }
-
-  /* ===================== Certifications ===================== */
-  .cert{
-    display:flex; align-items:center; gap:1rem;
-    padding:1.1rem 0; border-top:1px solid var(--line);
-  }
-  .cert:first-of-type{ border-top:none; }
-  .cert__thumb{
-    width:3.5rem; height:3.5rem; border-radius:6px; object-fit:cover;
-    border:1px solid var(--line); flex-shrink:0; background:var(--paper-soft);
-  }
-  .cert__thumb--placeholder{
+  .tl-toggle__label{ font-family:var(--font-display); font-size:1rem; flex:1; }
+  .avatar-stack{ display:flex; }
+  .avatar{
+    width:1.55rem; height:1.55rem; border-radius:60% 40% 55% 45% / 45% 55% 40% 60%;
     display:flex; align-items:center; justify-content:center;
-    font-family:var(--font-mono); font-size:0.7rem; color:var(--muted);
+    font-size:0.6rem; font-weight:700; color:#fff;
+    background:linear-gradient(155deg, var(--accent-2), var(--accent));
+    border:2px solid var(--paper-soft); margin-left:-0.5rem;
   }
-  .cert__body{ flex:1; min-width:0; }
-  .cert__title{ font-weight:600; font-size:0.98rem; }
-  .cert__meta{ font-size:0.84rem; color:var(--muted); margin-top:0.15rem; }
-  .cert__link{
-    font-family:var(--font-mono); font-size:0.8rem; color:var(--accent);
-    display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;
-  }
-  .cert__link svg{ width:12px; height:12px; }
+  .avatar:first-child{ margin-left:0; }
+  .avatar:nth-child(2){ filter:hue-rotate(20deg); }
+  .avatar:nth-child(3){ filter:hue-rotate(-20deg); }
+  .avatar:nth-child(4){ filter:hue-rotate(40deg); }
+  .avatar:nth-child(5){ filter:hue-rotate(-40deg); }
+  .chevron{ width:14px; height:14px; color:var(--muted); transition:transform .3s ease; flex-shrink:0; }
+  .tl-toggle[aria-expanded="true"] .chevron{ transform:rotate(180deg); }
 
-  /* ===================== Contact ===================== */
-  #contact .contact__grid{
-    display:grid; grid-template-columns: 1fr 1fr; gap:3rem;
-  }
-  .contact__list{ margin-top:1.5rem; }
-  .contact__item{
-    display:flex; gap:0.75rem; padding:0.7rem 0; border-top:1px solid var(--line);
-    align-items:flex-start;
-  }
-  .contact__item:first-child{ border-top:none; }
-  .contact__item svg{ width:16px; height:16px; margin-top:0.2rem; color:var(--muted); flex-shrink:0; }
-  .contact__item .label{ font-family:var(--font-mono); font-size:0.72rem; color:var(--muted); text-transform:uppercase; letter-spacing:0.04em; }
-  .contact__item .value{ font-size:0.93rem; margin-top:0.1rem; }
-  .contact__item a.value:hover{ color:var(--accent); }
+  .tl-panel{ max-height:0; overflow:hidden; transition:max-height .35s ease; }
+  .tl-panel.is-open{ /* max-height set inline via JS */ }
 
-  .field{ margin-bottom:1.1rem; }
-  .field label{ display:block; font-family:var(--font-mono); font-size:0.76rem; color:var(--muted); margin-bottom:0.4rem; }
-  .field input, .field textarea{
-    width:100%; font-family:var(--font-sans); font-size:0.93rem; color:var(--ink);
-    background:var(--paper-soft); border:1px solid var(--line); border-radius:6px;
-    padding:0.65rem 0.8rem; transition:border-color .18s ease;
+  .tl-list{ padding:0 1.35rem 1.1rem; }
+  .tl-item{ border-top:1px solid var(--line); }
+  .tl-item:first-child{ border-top:none; }
+  .tl-item__summary{
+    width:100%; display:flex; align-items:center; gap:0.7rem; padding:0.65rem 0; text-align:left;
   }
-  .field input:focus, .field textarea:focus{ border-color:var(--accent); outline:none; }
-  .field textarea{ resize:vertical; min-height:7rem; }
+  .tl-item__summary .avatar{ margin-left:0; width:1.8rem; height:1.8rem; font-size:0.66rem; flex-shrink:0; }
+  .tl-item__head{ flex:1; min-width:0; }
+  .tl-item__head b{ display:block; font-size:0.87rem; font-weight:600; }
+  .tl-item__head time{ font-size:0.76rem; color:var(--muted); }
+  .tl-item .chevron{ width:12px; height:12px; }
 
-  #form-status{ font-size:0.85rem; margin-top:0.5rem; min-height:1.2em; }
-  #form-status[data-state="ok"]{ color:#1a7f37; }
-  #form-status[data-state="err"]{ color:#c0392b; }
+  .tl-item__body{ max-height:0; overflow:hidden; transition:max-height .3s ease; }
+  .tl-item__body p{ padding:0 0 0.7rem 2.5rem; font-size:0.84rem; color:var(--ink-soft); }
+
+  /* ---- Contact ---- */
+  #contact h2{ font-size:1.02rem; font-weight:500; margin-bottom:0.6rem; }
+  #contact p.lead{ color:var(--ink-soft); font-size:0.92rem; max-width:34ch; }
+  .contact__chips{ margin-top:0.9rem; display:flex; flex-wrap:wrap; gap:0.5rem; }
+  .chip{
+    display:inline-flex; align-items:center; gap:0.4rem; font-size:0.82rem;
+    padding:0.4rem 0.7rem; border:1px solid var(--line); border-radius:100px; color:var(--ink-soft);
+  }
+  .chip:hover{ border-color:var(--accent); color:var(--accent); }
+  .chip svg{ width:13px; height:13px; }
 
   /* ===================== Footer ===================== */
-  footer{ padding:2.5rem 0; }
-  .footer__row{ display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; }
-  .footer__links{ display:flex; gap:1.25rem; }
-  .footer__links a{ font-size:0.85rem; color:var(--ink-soft); }
+  footer{ padding:1.4rem 0; border-top:1px solid var(--line); }
+  .footer__row{ display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.75rem; }
+  .footer__links{ display:flex; gap:1rem; }
+  .footer__links a{ font-size:0.78rem; color:var(--muted); }
   .footer__links a:hover{ color:var(--accent); }
-  .footer__socials{ display:flex; gap:0.85rem; }
-  .footer__socials a{ display:flex; }
-  .footer__socials svg{ width:17px; height:17px; color:var(--muted); }
+  .footer__socials{ display:flex; gap:0.75rem; }
+  .footer__socials svg{ width:16px; height:16px; color:var(--muted); }
   .footer__socials a:hover svg{ color:var(--accent); }
-  .footer__meta{ font-family:var(--font-mono); font-size:0.76rem; color:var(--muted); margin-top:1.5rem; }
+  .footer__meta{ font-size:0.76rem; color:var(--muted); }
 
   /* ===================== Responsive ===================== */
   @media (max-width: 860px){
-    .nav__links, .nav__right .theme-toggle{ display:none; }
-    .nav-mobile{ display:block; position:relative; }
-    .nav-mobile .theme-toggle{ display:none; }
-    #about .about__grid{ grid-template-columns:1fr; }
-    .about__photo{ max-width:14rem; aspect-ratio:4/5; }
-    .project{ grid-template-columns:1fr; }
-    .stack__grid{ grid-template-columns:1fr 1fr; }
-    #contact .contact__grid{ grid-template-columns:1fr; }
+    .nav__links{ display:none; }
+    .hero__row{ grid-template-columns:1fr; }
+    .portrait{ justify-self:start; width:7.5rem; order:-1; margin-bottom:0.5rem; }
+    .grid2{ grid-template-columns:1fr; }
   }
-
   @media (max-width: 560px){
-    section{ padding:3.25rem 0; }
-    .stack__grid{ grid-template-columns:1fr; }
-    .timeline__row{ grid-template-columns:1fr; gap:0.25rem; }
-    .timeline__row time{ order:1; }
-    .timeline__row .kind{ order:2; }
-    .timeline__row .what{ order:3; }
-    .status-line{ font-size:0.76rem; }
-    .cert{ align-items:flex-start; }
+    .tile{ padding:1rem 1.1rem; }
   }
 </style>
 </head>
 <body>
 
+<p class="sr-only">
+  Samuel Hagenimana is a software engineer based in Rulindo, Rwanda, and founder of Oliviuus Ltd.
+  He built iSanzure, a real estate rental platform for Rwanda, and co-founded Linkfy Connect in 2023.
+</p>
+
 <header id="site-header">
   <div class="nav">
-    <a href="#home" class="wordmark">Samuel Hagenimana <span>/ engineer</span></a>
-
-    <nav class="nav__links" aria-label="Primary">
-      <a href="#about">About</a>
-      <a href="#work">Work</a>
-      <a href="#stack">Stack</a>
-      <a href="#timeline">Timeline</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <a href="#home" class="wordmark">Samuel Hagenimana</a>
 
     <div class="nav__right">
       <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode">
         <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z"/></svg>
         <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
       </button>
-
-      <details class="nav-mobile">
-        <summary aria-label="Open menu">
-          <svg class="menu-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-          <svg class="close-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>
-        </summary>
-        <div class="nav-mobile__panel">
-          <a href="#about">About</a>
-          <a href="#work">Work</a>
-          <a href="#stack">Stack</a>
-          <a href="#timeline">Timeline</a>
-          <a href="#contact">Contact</a>
-          <button class="theme-toggle" id="theme-toggle-mobile" type="button" aria-label="Toggle dark mode" style="margin-top:0.75rem;">
-            <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z"/></svg>
-            <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
-          </button>
-        </div>
-      </details>
     </div>
   </div>
 </header>
@@ -477,293 +315,126 @@
 
   <!-- HOME -->
   <section id="home">
+    <svg class="hills" viewBox="0 0 800 220" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,160 C120,100 200,190 320,130 C420,80 500,170 620,110 C700,70 760,140 800,120 L800,220 L0,220 Z" fill="var(--accent-2)" opacity="0.55"/>
+      <path d="M0,190 C140,150 260,210 380,170 C500,130 600,200 800,160 L800,220 L0,220 Z" fill="var(--accent)" opacity="0.35"/>
+    </svg>
+
     <div class="wrap">
-      <p class="eyebrow">software engineer, rulindo, rwanda</p>
-      <h1 class="hero__lead">
-        I'm Samuel. I mainly work on <strong class="accent">Oliviuus</strong>, a technology company.
-      </h1>
-      <p class="hero__sub">
-        I run Oliviuus Ltd, a technology company I founded in 2025. Most of what I build ends up on the web or as a small backend service holding it together.
-      </p>
-
-      <div class="status-line mono">
-        <span><b>role:</b> founder &amp; developer</span>
-        <span><b>based:</b> rulindo, rwanda</span>
-      </div>
-
-      <div class="hero__actions">
-        <a href="#work" class="btn btn--solid">See what I've built</a>
-        <a href="#contact" class="btn btn--ghost">Get in touch</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ABOUT -->
-  <section id="about">
-    <div class="wrap">
-      <p class="eyebrow">about</p>
-      <div class="about__grid">
+      <div class="hero__row">
         <div>
-          <h2 style="margin-bottom:1.1rem;">A bit of background</h2>
-          <p>
-            I'm from Rwanda and I've been writing software for a few years now, starting with small personal
-            web projects and moving into building and running my own company. I studied Software Development
-            at Runda TSS, and I'm now studying Software Engineering at INES Ruhengeri.
-          </p>
-          <p>
-            In 2025 I founded <strong>Oliviuus Ltd</strong>, where I'm CEO and CTO. <strong>iSanzure</strong>,
-            a platform for finding and renting real estate in Rwanda, is built under it. Since 2023 I've also
-            been co-running <strong>Linkfy Connect</strong>, a platform for connecting people and opportunities.
-          </p>
-          <p>
-            Day to day I work mostly in JavaScript and Python, using Node and Express or Flask on the backend,
-            React and Next.js on the front end, and MySQL or MongoDB depending on the project. I'm also
-            interested in applied AI and try to bring it into what I build when it actually solves something,
-            not just because it's trendy.
-          </p>
-        </div>
-
-        <div>
-          <img
-            src="assets/img/samImg/samuel.png"
-            alt="Portrait of Samuel Hagenimana"
-            class="about__photo"
-            width="480" height="600"
-            loading="lazy" decoding="async"
-          />
-          <p class="about__caption">Samuel Hagenimana</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- WORK -->
-  <section id="work">
-    <div class="wrap wrap--wide">
-      <p class="eyebrow">work</p>
-      <h2>Companies and products I've built</h2>
-
-      <div class="project project--primary">
-        <div class="project__meta">
-          <span class="role">Founder, CEO &amp; CTO</span>
-          2025-present
-        </div>
-        <div>
-          <a href="https://oliviuus.com" target="_blank" rel="noopener noreferrer" class="project__name">
-            Oliviuus Ltd
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg>
-          </a>
-          <p class="project__desc">
-            A technology company I founded to build a streaming and movie distribution platform. I handle both
-            the product direction and the engineering. It's also the company iSanzure runs under.
-          </p>
-          <div class="tags">
-            <span class="tag">Node.js</span><span class="tag">React</span><span class="tag">MongoDB</span>
+          <h1 class="hero__lead">I build things faster than I can explain what they do. This page is my best attempt.</h1>
+          <p class="hero__sub">Founder, Oliviuus Ltd.</p>
+          <div class="hero__actions">
+            <a href="https://github.com/hagenimanasamuel" target="_blank" rel="noopener noreferrer" class="gh-badge" aria-label="GitHub — commit history doesn't lie">
+              <span class="gh-badge__default" aria-hidden="true">GH</span>
+              <span class="gh-badge__joke" aria-hidden="true">commit history doesn't lie</span>
+            </a>
           </div>
         </div>
-      </div>
 
-      <div class="project">
-        <div class="project__meta">
-          <span class="role">Founder, within Oliviuus</span>
-          2025-present
-        </div>
-        <div>
-          <a href="https://isanzure.oliviuus.com" target="_blank" rel="noopener noreferrer" class="project__name">
-            iSanzure
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg>
-          </a>
-          <p class="project__desc">
-            A real estate platform built for the Rwandan market. People list homes, and renters search and
-            contact owners directly. Built to solve a problem I saw firsthand: how scattered and informal
-            house-hunting still is in most Rwandan towns.
-          </p>
-          <div class="tags">
-            <span class="tag">Next.js</span><span class="tag">Express</span><span class="tag">MySQL</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="project">
-        <div class="project__meta">
-          <span class="role">Co-founder</span>
-          2023-present
-        </div>
-        <div>
-          <a href="https://linkfyconnect.com" target="_blank" rel="noopener noreferrer" class="project__name">
-            Linkfy Connect
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg>
-          </a>
-          <p class="project__desc">
-            A platform for connecting people with opportunities. My oldest active project, co-founded in 2023,
-            before Oliviuus existed.
-          </p>
-          <div class="tags">
-            <span class="tag">JavaScript</span><span class="tag">PHP</span>
+        <div class="portrait">
+          <div class="portrait__shape">
+            <img
+              id="portrait-img"
+              src="https://res.cloudinary.com/dgfrzygpo/image/upload/f_auto,q_auto,c_fill,g_face,ar_3:4,w_400/v1788352174/samuel_2_sntjqp.png"
+              alt="Samuel Hagenimana"
+              width="400" height="533"
+              loading="eager" fetchpriority="high" decoding="async"
+              onerror="this.style.display='none'; document.getElementById('portrait-fallback').style.display='flex';"
+            />
+            <div class="portrait__fallback" id="portrait-fallback">SH</div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- STACK -->
-  <section id="stack">
+  <!-- BODY -->
+  <section id="body-grid">
     <div class="wrap">
-      <p class="eyebrow">stack</p>
-      <h2>What I actually use</h2>
+      <div class="grid2">
 
-      <div class="stack__grid">
-        <div class="stack__group">
-          <h3>Primary languages</h3>
-          <p>JavaScript, Python, SQL</p>
-        </div>
-        <div class="stack__group">
-          <h3>Also use</h3>
-          <p>PHP, Dart</p>
-        </div>
-        <div class="stack__group">
-          <h3>Frameworks</h3>
-          <p>Node.js, Express, React, Next.js, Flask</p>
-        </div>
-        <div class="stack__group">
-          <h3>Databases</h3>
-          <p>MySQL, MongoDB</p>
-        </div>
-        <div class="stack__group">
-          <h3>Currently exploring</h3>
-          <p>Flutter, applied AI</p>
-        </div>
-        <div class="stack__group">
-          <h3>Spoken</h3>
-          <p>English, Kinyarwanda</p>
-        </div>
-      </div>
-    </div>
-  </section>
+        <div class="tile" id="timeline-tile" style="padding:0;">
+          <button class="tl-toggle" id="tl-toggle" aria-expanded="false" aria-controls="tl-panel">
+            <span class="tl-toggle__label">Timeline</span>
+            <span class="avatar-stack" aria-hidden="true">
+              <span class="avatar">GK</span><span class="avatar">RT</span><span class="avatar">LC</span><span class="avatar">OL</span><span class="avatar">IR</span>
+            </span>
+            <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
 
-  <!-- TIMELINE -->
-  <section id="timeline">
-    <div class="wrap wrap--wide">
-      <p class="eyebrow">timeline</p>
-      <h2>Education &amp; work, in order</h2>
+          <div class="tl-panel" id="tl-panel">
+            <div class="tl-list">
 
-      <div class="timeline">
-        <div class="timeline__row">
-          <time class="mono">2013-2018</time>
-          <span class="kind">Education</span>
-          <div class="what"><b>Primary school</b><span>GS Kiruri, Rwanda</span></div>
-        </div>
-        <div class="timeline__row">
-          <time class="mono">2019-2022</time>
-          <span class="kind">Education</span>
-          <div class="what"><b>High school</b><span>ES Rukozo, Rwanda</span></div>
-        </div>
-        <div class="timeline__row">
-          <time class="mono">2023-2025</time>
-          <span class="kind">Education</span>
-          <div class="what"><b>Diploma, Software Development</b><span>Runda TSS, Rwanda</span></div>
-        </div>
-        <div class="timeline__row">
-          <time class="mono">2023-present</time>
-          <span class="kind">Work</span>
-          <div class="what"><b>Co-founder</b><span>Linkfy Connect</span></div>
-        </div>
-        <div class="timeline__row">
-          <time class="mono">2025-present</time>
-          <span class="kind">Work</span>
-          <div class="what"><b>Founder, CEO &amp; CTO</b><span>Oliviuus Ltd, including iSanzure</span></div>
-        </div>
-        <div class="timeline__row">
-          <time class="mono">2026-present</time>
-          <span class="kind">Education</span>
-          <div class="what"><b>Software Engineering</b><span>INES Ruhengeri, Rwanda</span></div>
-        </div>
-      </div>
-    </div>
-  </section>
+              <div class="tl-item">
+                <button class="tl-item__summary" aria-expanded="false">
+                  <span class="avatar" aria-hidden="true">GK</span>
+                  <span class="tl-item__head"><b>School</b><time>2013 to 2022</time></span>
+                  <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                </button>
+                <div class="tl-item__body"><p>GS Kiruri, then ES Rukozo.</p></div>
+              </div>
 
-  <!-- CERTIFICATIONS -->
-  <section id="certifications">
-    <div class="wrap">
-      <p class="eyebrow">certifications</p>
-      <h2>Extra courses I've completed</h2>
+              <div class="tl-item">
+                <button class="tl-item__summary" aria-expanded="false">
+                  <span class="avatar" aria-hidden="true">RT</span>
+                  <span class="tl-item__head"><b>Diploma, Software Development</b><time>2023 to 2025</time></span>
+                  <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                </button>
+                <div class="tl-item__body"><p>Runda TSS.</p></div>
+              </div>
 
-      <div>
-        <div class="cert">
-          <img
-            src="assets/img/certifications/digitalskills.jpg"
-            alt="Digital Skills certificate"
-            class="cert__thumb"
-            width="56" height="56"
-            loading="lazy" decoding="async"
-          />
-          <div class="cert__body">
-            <div class="cert__title">Digital Skills</div>
-            <div class="cert__meta">IBM / Digital Opportunity Trust · does not expire</div>
+              <div class="tl-item">
+                <button class="tl-item__summary" aria-expanded="false">
+                  <span class="avatar" aria-hidden="true">LC</span>
+                  <span class="tl-item__head"><b>Co-founder, Linkfy Connect</b><time>2023, still going</time></span>
+                  <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                </button>
+                <div class="tl-item__body"><p>A platform for connecting people with opportunities.</p></div>
+              </div>
+
+              <div class="tl-item">
+                <button class="tl-item__summary" aria-expanded="false">
+                  <span class="avatar" aria-hidden="true">OL</span>
+                  <span class="tl-item__head"><b>Founder, Oliviuus Ltd</b><time>2025, still going</time></span>
+                  <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                </button>
+                <div class="tl-item__body"><p>Including iSanzure, its real estate product.</p></div>
+              </div>
+
+              <div class="tl-item">
+                <button class="tl-item__summary" aria-expanded="false">
+                  <span class="avatar" aria-hidden="true">IR</span>
+                  <span class="tl-item__head"><b>Software Engineering</b><time>2026, still going</time></span>
+                  <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                </button>
+                <div class="tl-item__body"><p>INES Ruhengeri.</p></div>
+              </div>
+
+            </div>
           </div>
-          <a href="./assets/img/certifications/Samuel Certificate.pdf" target="_blank" rel="noopener noreferrer" class="cert__link">
-            View <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg>
-          </a>
         </div>
 
-        <div class="cert">
-          <div class="cert__thumb cert__thumb--placeholder" aria-hidden="true">JS</div>
-          <div class="cert__body">
-            <div class="cert__title">JavaScript Algorithms and Data Structures</div>
-            <div class="cert__meta">freeCodeCamp · issued April 10, 2024 · 300 hours</div>
-          </div>
-          <a href="https://www.freecodecamp.org/certification/hagenimanasamuel/javascript-algorithms-and-data-structures-v8" target="_blank" rel="noopener noreferrer" class="cert__link">
-            View <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact">
-    <div class="wrap">
-      <p class="eyebrow">contact</p>
-      <div class="contact__grid">
-        <div>
-          <h2 style="margin-bottom:0.5rem;">Let's talk</h2>
-          <p style="color:var(--ink-soft); font-size:0.96rem;">
-            Reach out if you want to work together, have a question about Oliviuus or iSanzure, or just want to
-            say hi.
-          </p>
-
-          <div class="contact__list">
-            <div class="contact__item">
+        <div class="tile" id="contact">
+          <h2>Say hi</h2>
+          <p class="lead">Have a project, a question about Oliviuus or iSanzure, or just want to say hi. I read everything myself.</p>
+          <div class="contact__chips">
+            <a class="chip" href="tel:+250788880266">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 5a2 2 0 0 1 2-2h3.28a1 1 0 0 1 .95.68l1.5 4.5a1 1 0 0 1-.27 1.05L8.5 10.5a11 11 0 0 0 5 5l1.27-2a1 1 0 0 1 1.05-.27l4.5 1.5a1 1 0 0 1 .68.95V19a2 2 0 0 1-2 2h-1C10.7 21 3 13.3 3 4Z"/></svg>
-              <div><div class="label">Phone</div><a class="value" href="tel:+250788880266">+250 788 880 266</a></div>
-            </div>
-            <div class="contact__item">
+              +250 788 880 266
+            </a>
+            <a class="chip" href="mailto:smlhagenimana@gmail.com">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
-              <div><div class="label">Email</div><a class="value" href="mailto:smlhagenimana@gmail.com">smlhagenimana@gmail.com</a></div>
-            </div>
-            <div class="contact__item">
+              smlhagenimana@gmail.com
+            </a>
+            <span class="chip">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s7-6.3 7-11.5A7 7 0 0 0 5 9.5C5 14.7 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
-              <div><div class="label">Location</div><span class="value">Rulindo-Base, Rwanda</span></div>
-            </div>
+              Rulindo, Rwanda
+            </span>
           </div>
         </div>
 
-        <form id="contact-form" novalidate>
-          <div class="field">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required autocomplete="name" />
-          </div>
-          <div class="field">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required autocomplete="email" />
-          </div>
-          <div class="field">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required></textarea>
-          </div>
-          <button type="submit" class="btn btn--solid">Send message</button>
-          <p id="form-status" role="status" aria-live="polite"></p>
-        </form>
       </div>
     </div>
   </section>
@@ -773,10 +444,11 @@
 <footer>
   <div class="wrap wrap--wide">
     <div class="footer__row">
+      <span class="footer__meta">Samuel Hagenimana, &copy; <span id="year"></span></span>
       <div class="footer__links">
-        <a href="#about">About</a>
-        <a href="#work">Work</a>
-        <a href="#contact">Contact</a>
+        <a href="https://oliviuus.com" target="_blank" rel="noopener noreferrer">Oliviuus</a>
+        <a href="https://isanzure.oliviuus.com" target="_blank" rel="noopener noreferrer">iSanzure</a>
+        <a href="https://linkfyconnect.com" target="_blank" rel="noopener noreferrer">Linkfy Connect</a>
       </div>
       <div class="footer__socials">
         <a href="https://www.linkedin.com/in/hagenimanasamuel" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
@@ -787,7 +459,6 @@
         </a>
       </div>
     </div>
-    <p class="footer__meta">&copy; <span id="year"></span> Samuel Hagenimana.</p>
   </div>
 </footer>
 
@@ -795,60 +466,62 @@
   (function(){
     "use strict";
 
-    // ---- Theme: respects saved choice, falls back to system preference ----
     var root = document.documentElement;
     var stored = localStorage.getItem('theme');
     if (stored === 'dark' || (!stored && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
       root.classList.add('dark');
     }
-
     function toggleTheme(){
       root.classList.toggle('dark');
       localStorage.setItem('theme', root.classList.contains('dark') ? 'dark' : 'light');
     }
     var t1 = document.getElementById('theme-toggle');
-    var t2 = document.getElementById('theme-toggle-mobile');
     if (t1) t1.addEventListener('click', toggleTheme);
-    if (t2) t2.addEventListener('click', toggleTheme);
 
-    // ---- Header border on scroll ----
     var header = document.getElementById('site-header');
-    var onScroll = function(){
-      if (header) header.classList.toggle('scrolled', window.scrollY > 8);
-    };
+    var onScroll = function(){ if (header) header.classList.toggle('scrolled', window.scrollY > 8); };
     window.addEventListener('scroll', onScroll, { passive: true });
     onScroll();
 
-    // ---- Close mobile menu after a link is tapped ----
-    var mobileNav = document.querySelector('.nav-mobile');
-    if (mobileNav) {
-      mobileNav.querySelectorAll('a').forEach(function(a){
-        a.addEventListener('click', function(){ mobileNav.removeAttribute('open'); });
+    // ---- Lightweight accordion: outer timeline reveal + one-open-at-a-time items ----
+    var outerToggle = document.getElementById('tl-toggle');
+    var outerPanel = document.getElementById('tl-panel');
+
+    function openPanel(btn, panel){
+      btn.setAttribute('aria-expanded', 'true');
+      panel.style.maxHeight = panel.scrollHeight + 'px';
+    }
+    function closePanel(btn, panel){
+      btn.setAttribute('aria-expanded', 'false');
+      panel.style.maxHeight = '0px';
+    }
+
+    if (outerToggle && outerPanel) {
+      outerToggle.addEventListener('click', function(){
+        var isOpen = outerToggle.getAttribute('aria-expanded') === 'true';
+        if (isOpen) { closePanel(outerToggle, outerPanel); }
+        else { openPanel(outerToggle, outerPanel); }
       });
     }
 
-    // ---- Contact form: opens the user's mail client, no backend needed ----
-    var form = document.getElementById('contact-form');
-    var status = document.getElementById('form-status');
-    if (form) {
-      form.addEventListener('submit', function(e){
-        e.preventDefault();
-        var name = form.name.value.trim();
-        var email = form.email.value.trim();
-        var message = form.message.value.trim();
-        if (!name || !email || !message) {
-          status.textContent = 'Please fill in every field.';
-          status.dataset.state = 'err';
-          return;
+    var items = Array.prototype.slice.call(document.querySelectorAll('.tl-item'));
+    items.forEach(function(item){
+      var btn = item.querySelector('.tl-item__summary');
+      var body = item.querySelector('.tl-item__body');
+      btn.addEventListener('click', function(){
+        var isOpen = btn.getAttribute('aria-expanded') === 'true';
+        items.forEach(function(other){
+          var oBtn = other.querySelector('.tl-item__summary');
+          var oBody = other.querySelector('.tl-item__body');
+          closePanel(oBtn, oBody);
+        });
+        if (!isOpen) { openPanel(btn, body); }
+        // outer panel height needs to grow/shrink to fit the newly opened item
+        if (outerPanel && outerToggle.getAttribute('aria-expanded') === 'true') {
+          requestAnimationFrame(function(){ outerPanel.style.maxHeight = outerPanel.scrollHeight + 'px'; });
         }
-        var subject = encodeURIComponent('Portfolio contact from ' + name);
-        var body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + message);
-        window.location.href = 'mailto:smlhagenimana@gmail.com?subject=' + subject + '&body=' + body;
-        status.textContent = 'Your email client should now be open. Review and send.';
-        status.dataset.state = 'ok';
-        form.reset();
       });
-    }
+    });
 
     document.getElementById('year').textContent = new Date().getFullYear();
   })();
